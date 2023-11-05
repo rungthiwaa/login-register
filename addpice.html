@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าเพิ่มสินค้า</title>
+    <link rel="stylesheet" href="main1.css">
+</head>
+<body>
+    <div class="main">
+        <div class="content">
+            <div class="select-img">
+                <input type="file" name="file" accept="image/png, image/gif, image/jpeg">
+                <!-- <img src="img/plus.png" alt="+"> -->
+            </div>
+            <br>
+            <div class="name-r">
+                <div class="name-1">
+                    <input type="name-1" class="form-control" id="floatingInput" placeholder="กรอกชื่อสินค้า">
+                    <label for="floatingInput"></label>
+                </div>
+                <br>
+                <div class="name-2">
+                    <input type="name-2" class="form-control" id="floatingInput" placeholder="กรอกราคาสินค้า">
+                    <label for="floatingInput"></label>
+                </div>
+                <br>
+                <select class="form-select" aria-label="Default select Type">
+                    <option selected>หมวดหมู่</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <div class="mystock">
+                    <p>-</p>
+                    <p>0</p>
+                    <p>+</p>
+                </div>
+                <div>
+                    <input type="submit" value="ยืนยัน">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="ft-l">
+                <h5>คำอธิบาย</h5>
+                <input type="text"  placeholder="ใส่รายละเอียดสินค้า">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
